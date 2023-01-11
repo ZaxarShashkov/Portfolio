@@ -1,0 +1,135 @@
+:root {
+    --gradient: linear-gradient(to right, #2AF598, #009EFD);
+    --color: #FCF9BF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2C2C2C;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 1200px;
+    padding: 1em 1em 1em 0;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.logo {
+    width: 4em;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-around;
+    gap: 7em;
+    list-style: none;
+
+}
+
+.menu_list li {
+    border: 2px solid transparent;
+}
+
+.menu_list li:hover {
+    border-bottom: 2px solid var(--color);
+    transition: 0.3s ease-in;
+}
+
+.menu_link {
+    color: #E4E4E4;
+}
+
+.about .container {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5em;
+}
+
+.about_title {
+    font-size: 3em;
+    color: #fff;
+}
+
+.about_text {
+    color: #E4E4E4;
+    line-height: 1.5em;
+}
+
+.about_btn {
+    margin-top: 2em;
+    width: 8em;
+    height: 2.5em;
+    background: var(--gradient);
+    border: 1px solid var(--gradient);
+    border-radius: 1em;
+}
+
+.about-btn_link {
+    color: var(--color);
+    font-size: 1.1em;
+}
+
+.about_picture {
+    position: relative;
+}
+
+.drop_shadow {
+    position: absolute;
+    top: 2em;
+    left: 5em;
+    width: 400px;
+    height: 400px;
+    border: 2.5em solid #00C4F0;
+    border-radius: 999px;
+    filter: drop-shadow(0px 0px 152px rgba(0, 196, 240, 0.42));
+}
+
+.circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    border-radius: 999px;
+    text-align: center;
+}
+
+.circle span {
+    display: inline-block;
+    color: #00C4F0;
+    padding-top: 1.7em;
+    font-size: 0.7em;
+    font-weight: 2em;
+}
+
+.circle_html {
+    top: 3em;
+    left: 7.3em;
+}
+
+.circle_css {
+    top: 9em;
+    left: 3.5em;
+}
+
+.circle_js {
+    top: 16em;
+    left: 3em;
+}
