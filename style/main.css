@@ -145,6 +145,13 @@ a {
     position: relative;
 }
 
+.zakhar_img {
+    position: absolute;
+    top: -6em;
+    left: -2em;
+    width: 400px;
+    height: 500px;
+}
 .drop_shadow {
     position: absolute;
     top: 2em;
@@ -189,8 +196,6 @@ a {
     left: 3em;
 }
 
-.soft_skills .container {}
-
 .skills_cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -202,7 +207,7 @@ a {
 }
 
 .about_me {
-    margin-top: 8em;
+    margin-top: 10em;
 }
 
 .about_me .container {
@@ -213,12 +218,30 @@ a {
     align-items: center;
 }
 
-.about-me_left {}
+.about-me_left {
+    position: relative;
+}
 
-.left_photos {}
+.left_photos {
+    position: absolute;
+    top: -13em;
+    left: 19.5em;
+    width: 250px;
+    height: 350px;
+    border: 7px solid transparent;
+    box-shadow: 2px 4px 6px black;
+    border-radius: 1em;
+}
+
+.photo_01 {
+    border-radius: 1em;
+    width: 237px;
+    height: 337px;
+}
 
 .about-me_center {
-    border: 3px solid black;
+    border: 3px solid transparent;
+    box-shadow: 2px 4px 6px black;
     padding: 1em;
     border-radius: 2em;
     color: #fff;
@@ -231,12 +254,30 @@ a {
 }
 
 .about-center_text {
+    font-size: 1.3em;
     line-height: 1.7em;
 }
 
-.about-me_right {}
+.about-me_right {
+    position: relative;
+}
 
-.right_photo {}
+.right_photo {
+    position: absolute;
+    top: -7em;
+    left: -1em;
+    width: 207px;
+    height: 257px;
+    border: 7px solid transparent;
+    box-shadow: 2px 4px 6px black;
+    border-radius: 1em;
+}
+
+.photo_03 {
+    width: 193px;
+    height: 243px;
+    border-radius: 1em;
+}
 
 /* slider */
 
@@ -325,12 +366,6 @@ a {
 .footer_nav li {
     list-style: none;
 }
-
-.footer_copyright {}
-
-.footer_menu {}
-
-.footer_contact {}
 
 .wave {
     position: absolute;
