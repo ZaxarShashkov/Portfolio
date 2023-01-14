@@ -12,16 +12,16 @@
 <body>
     <header class="header">
         <div class="container">
-            <nav class="nav">
+            <nav class="nav" id="home">
                 <div class="logo_container">
                     <img src="img/logo.svg" alt="" class="logo">
                 </div>
                 <div class="menu">
                     <ul class="menu_list">
                         <li><a href="#" class="menu_link">Home</a></li>
-                        <li><a href="#" class="menu_link">About me</a></li>
+                        <li><a href="#about_me" class="menu_link">About me</a></li>
                         <li><a href="#" class="menu_link">Photo</a></li>
-                        <li><a href="#" class="menu_link">Contact</a></li>
+                        <li><a href="#contact" class="menu_link">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -35,7 +35,7 @@
                     <p class="fs_text">I'm new to frontend developer, started training in March 2022, completed
                         courses on stepik.org by HTML/CSS and a bit of JS. At the moment I am finishing a course in
                         it-academy courses on JS development.</p>
-                    <button class="fs_btn" ><span>Contact me</span></button>
+                    <button class="fs_btn"><span><a href="#contact">Contact me</a></span></button>
                 </div>
                 <div class="fs_picture">
                     <div class="drop_shadow"></div>
@@ -45,7 +45,7 @@
                 </div>
             </div>
         </section>
-        <section class="about_me">
+        <section class="about_me" id="about_me">
             <div class="container">
                 <div class="about-me_left">
                     <div class="left_photos">
@@ -81,30 +81,57 @@
         </section>
         <section class="photo-slider">
             <div class="container">
-                <div class="slider">
-
+                <div class="slider_container">
+                    <div class="slider_track">
+                        <div class="slider_item"></div>
+                        <div class="slider_item"></div>
+                        <div class="slider_item"></div>
+                        <div class="slider_item"></div>
+                        <div class="slider_item"></div>
+                        <div class="slider_item"></div>
+                        <div class="slider_item"></div>
+                        <div class="slider_item"></div>
+                        <div class="slider_item"></div>
+                    </div>
+                </div>
+                <div class="slider_buttons">
+                    <button class="button_prev button_slider">Prev</button>
+                    <button class="button_next button_slider">Next</button>
                 </div>
             </div>
         </section>
     </main>
     <footer class="footer">
         <div class="container">
-            <nav class="footer_nav">
-                <ul class="footer_menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Photo</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <ul class="footer_contact">
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Email:zekharjah@gmail.com</a></li>
-                    <li><a href="#">inst:zaxariusss</a></li>
-                    <li><a href="#">Calls:+375445756134</a></li>
-                </ul>
-            </nav>
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            <div class="footer_content">
+                <nav class="footer_nav" id="contact">
+                    <ul class="footer_menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about_me">About me</a></li>
+                        <li><a href="#">Photo</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <ul class="footer_contact">
+                        <li><a href="#">Contact</a></li>
+                        <li><a target="_blank" href="malito:zekharjah@gmail.com:">Email:zekharjah@gmail.com</a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/zaxariusss/">inst:zaxariusss</a></li>
+                        <li><a href="tel:+375445756134">Calls:(44)5756134</a></li>
+                    </ul>
+
+                </nav>
+                <p class="footer_copyright">Copyright © 2023, Zakhar</p>
+            </div>
         </div>
     </footer>
+
+
+    <script src="/script/script.js"></script>
 </body>
 
 </html>
