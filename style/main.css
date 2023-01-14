@@ -59,7 +59,6 @@ a {
     justify-content: space-around;
     gap: 16vw;
     list-style: none;
-
 }
 
 .menu_list li {
@@ -213,19 +212,16 @@ a {
 .about_me .container {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr 1fr;
     justify-content: space-around;
     align-items: center;
 }
 
 .about-me_left {
-    position: relative;
+    margin-left: 3em;
 }
 
 .left_photos {
-    position: absolute;
-    top: -13em;
-    left: 19.5em;
     width: 250px;
     height: 350px;
     border: 7px solid transparent;
@@ -260,12 +256,10 @@ a {
 
 .about-me_right {
     position: relative;
+    margin-left: 2em;
 }
 
 .right_photo {
-    position: absolute;
-    top: -7em;
-    left: -1em;
     width: 207px;
     height: 257px;
     border: 7px solid transparent;
@@ -283,30 +277,25 @@ a {
 
 .slider_container {
     overflow: hidden;
-    background-color: pink;
+    margin-top: 10em;
+    width: 100%;
 }
 
 .slider_track {
-    background-color: yellow;
     display: flex;
-    transition: 2s;
 }
 
 .slider_item {
-    height: 100px;
-    min-width: 200px;
+    height: 30vh;
+    width: 50%;
+    border: 1px solid transparent;
+    box-shadow: 1px 2px 4px;
 }
 
-.slider_item:nth-child(3n+1) {
-    background-color: red;
-}
-
-.slider_item:nth-child(3n+2) {
-    background-color: green;
-}
-
-.slider_item:nth-child(3n+3) {
-    background-color: blue;
+.slider_text {
+    font-size: 1em;
+    text-align: center;
+    color: var(--color);
 }
 
 .slider_buttons {
@@ -326,7 +315,7 @@ a {
 
 /* footer */
 .footer .container {
-    margin-top: 10em;
+    margin-top: 20em;
     position: relative;
     background: #3886ff;
     width: 100%;

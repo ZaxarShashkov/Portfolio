@@ -1,0 +1,71 @@
+@media all and (max-width:1050px) {
+    .about_me .container {
+        display: flex;
+    }
+
+    .about-me_left {
+        display: none;
+    }
+}
+
+
+
+@media all and (max-width:991px) {
+    .menu_list {
+        gap: 6em;
+    }
+
+    .first-screen .container {
+        grid-gap: 3em;
+    }
+
+    .fs_title {
+        font-size: 2em;
+    }
+
+    .first-screen .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fs_picture {
+        margin-right: 5em;
+    }
+
+    .zakhar_img {
+        position: relative;
+    }
+
+    .drop_shadow {
+        position: relative;
+    }
+
+    .slider_container {
+        width: 85%;
+        margin-left: 4em;
+    }
+
+    .footer_nav {
+        gap: 3em;
+        font-size: 0.7em;
+    }
+    .footer_nav a {
+        padding-top: 0.5em;
+    }
+    .footer_copyright {
+        font-size: 0.7em;
+    }
+}
+
+@media all and (max-width:767px) {
+    .slider_container {
+        width: 50%;
+        margin-left: 11em;
+        border-radius: 1em;
+    }
+    .slider_item {
+        padding-left: 1em;
+    }
+}
