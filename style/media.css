@@ -124,6 +124,7 @@
     .footer .container {
         background-color: transparent;
         margin: 0;
+        padding: 0;
     }
 
     .waves {
@@ -131,7 +132,10 @@
     }
 
     .footer_nav {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
     .footer_menu {
@@ -150,5 +154,6 @@
 
     .footer_copyright {
         padding-top: 1em;
+        padding-left: 3.5em;
     }
 }
