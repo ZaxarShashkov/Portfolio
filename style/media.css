@@ -51,9 +51,11 @@
         gap: 3em;
         font-size: 0.7em;
     }
+
     .footer_nav a {
         padding-top: 0.5em;
     }
+
     .footer_copyright {
         font-size: 0.7em;
     }
@@ -65,7 +67,88 @@
         margin-left: 11em;
         border-radius: 1em;
     }
+
     .slider_item {
         padding-left: 1em;
+    }
+}
+
+@media all and (max-width: 415px) {
+    .menu_list {
+        font-size: 1em;
+        justify-content: space-between;
+        gap: 3em;
+        font-size: 0.5em;
+    }
+
+    .first-screen .container {
+        display: block;
+        text-align: center;
+    }
+
+    .fs_title {
+        font-size: 1.5em;
+    }
+
+    .fs_text {
+        font-size: 1em;
+    }
+
+    .fs_picture {
+        display: none;
+    }
+
+    .about_me .container {
+        display: block;
+    }
+
+    .about-center_title {
+        font-size: 2em;
+    }
+
+    .about-center_text {
+        font-size: 1em;
+    }
+
+    .about-me_right {
+        margin-top: 1em;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .photo-slider {
+        display: none;
+    }
+
+    .footer .container {
+        background-color: transparent;
+        margin: 0;
+    }
+
+    .waves {
+        display: none;
+    }
+
+    .footer_nav {
+        display: block;
+    }
+
+    .footer_menu {
+        display: flex;
+        gap: 1em;
+    }
+
+    .footer_contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_content {
+        display: block;
+    }
+
+    .footer_copyright {
+        padding-top: 1em;
     }
 }
