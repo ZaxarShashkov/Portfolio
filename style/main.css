@@ -17,6 +17,7 @@ body {
     min-width: 100vw;
     overflow-x: hidden;
     font-family: 'Roboto Mono', monospace;
+    overflow-x: hidden;
 }
 
 a {
@@ -57,7 +58,7 @@ a {
 .menu_list {
     display: flex;
     justify-content: space-around;
-    gap: 16vw;
+    gap: 10vw;
     list-style: none;
 }
 
@@ -78,7 +79,7 @@ a {
     margin-top: 2em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 15vw;
+    grid-gap: 5vw;
 }
 
 .fs_title {
@@ -363,7 +364,7 @@ a {
     width: 100%;
     height: 100px;
     background: url(../img/wave.png);
-    background-size: 1000px 100px;
+    background-size: 100vw 20vh;
 }
 
 #wave1 {
@@ -397,20 +398,20 @@ a {
 
 @keyframes animateWave {
     0% {
-        background-position-x: 1000px;
+        background-position-x: 100vw;
     }
 
     100% {
-        background-position-x: 0px;
+        background-position-x: 0vw;
     }
 }
 
 @keyframes animateWave_02 {
     0% {
-        background-position-x: 0px;
+        background-position-x: 0vw;
     }
 
     100% {
-        background-position-x: 1000px;
+        background-position-x: 100vw;
     }
 }

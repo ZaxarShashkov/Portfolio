@@ -73,6 +73,20 @@
     }
 }
 
+@media all and (max-width: 684px) {
+    #photo {
+        display: none;
+        margin-top: 0;
+    }
+    .waves {
+        display: none;
+    }
+    .footer .container {
+        background-color: transparent;
+        margin-top: 3em;
+    }
+}
+
 @media all and (max-width: 415px) {
     .menu_list {
         font-size: 1em;
