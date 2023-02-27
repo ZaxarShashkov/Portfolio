@@ -88,10 +88,6 @@
         margin-top: 3em;
     }
 
-    .about_me .container {
-        margin-left: 1em;
-    }
-
     .footer_nav {
         display: flex;
         flex-direction: column;
