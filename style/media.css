@@ -78,12 +78,45 @@
         display: none;
         margin-top: 0;
     }
+
     .waves {
         display: none;
     }
+
     .footer .container {
         background-color: transparent;
         margin-top: 3em;
+    }
+
+    .about_me .container {
+        margin-left: 1em;
+    }
+
+    .footer_nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .footer_menu {
+        display: flex;
+        gap: 1em;
+    }
+
+    .footer_contact {
+        display: flex;
+        flex-direction: column;
+        margin-top: -2em;
+    }
+
+    .footer_content {
+        display: block;
+    }
+
+    .footer_copyright {
+        padding-top: 1em;
+        padding-left: 3.5em;
     }
 }
 
@@ -145,29 +178,4 @@
         display: none;
     }
 
-    .footer_nav {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-
-    .footer_menu {
-        display: flex;
-        gap: 1em;
-    }
-
-    .footer_contact {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer_content {
-        display: block;
-    }
-
-    .footer_copyright {
-        padding-top: 1em;
-        padding-left: 3.5em;
-    }
 }
